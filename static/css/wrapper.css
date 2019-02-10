@@ -1,0 +1,52 @@
+
+body {
+	background-color: #cccccc;
+}
+
+
+.img-logo::after{
+	content: url("../images/logosmall.png");
+}
+
+.adaptive-navbar-brand{
+	font-size: 100%;
+	color: white;
+}
+
+.dropdown-menu {
+  font-size: 100%;
+  background-color: #cccc;
+}
+
+
+
+
+
+@media (max-width: 1200px) {
+    body {
+    	background-color: #cccccc;
+    }
+    
+    .navbar-toggler-icon {
+    	display:none;
+	}
+    .navbar-toggler::after{
+    	content: url(../images/xs_toggler.png);
+    	
+    }
+    .img-logo::after{
+		content: url("../images/logo_md.png");
+	}
+	.adaptive-navbar-brand{
+		font-size: 250%;
+	}
+
+	.nav-item{
+		text-align: right;
+		font-size: 60px;
+	}
+	.dropdown-menu {
+		font-size: 100%;
+  		background-color: #cccc;
+	}
+}

@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+/*.img-main {
+	background-image: url("../images/door.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    width: 99vw;
+    height: 95vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+	
+
+}
+*/
+.img-main::after{
+		content: url("../images/door_1800.jpg");
+}
+
+
+@media (max-width: 1200px) {
+    body {
+        background-color: #cccccc;
+    }
+
+    .img-main::after{
+		content: url("../images/door.jpg");
+	}
+}
