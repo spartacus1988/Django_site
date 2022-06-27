@@ -37,7 +37,7 @@ python-systemd
 python3-openid==3.1.0
 pytz==2018.7
 pyxdg==0.25
-reportlab==3.3.0
+reportlab==3.5.55
 requests==2.20.1
 requests-oauthlib==1.0.0
 six==1.10.0
